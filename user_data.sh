@@ -3,7 +3,7 @@
 # Update and upgrade system
 apt-get update && apt-get -y upgrade
 
-# Install Java
+# Install and upgrade Java
 apt install -y openjdk-8-jdk
 apt-get update && apt-get -y upgrade
 # Install Jenkins
